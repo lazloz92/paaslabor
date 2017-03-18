@@ -24,7 +24,7 @@
 - host gép könyvtárának mountolása: 1. hozz létre a VirtualBox-ban Devices/Shared Folders -ben egy foldert pl. host néven, majd a CentOS-ben ezt mountolhatod: sudo mount -t vboxsf host /media  (host a share neve)
 - Firefox a böngésző
 - érdemes beállítani VirtualBox-ban a bidirectional clipboard-ot hogy a copy-paste működjön
-- serice-ek statusa, újraindítása pl.: sudo systemctl restart NetworkManager
+- service-ek statusa, újraindítása pl.: sudo systemctl restart NetworkManager
 - készítsetek magatoknak egy munkakönyvtárat és abban dolgozzatok
 
 ## GitHub
@@ -63,7 +63,7 @@ git push origin master
 ```
 Ekkor a saját GitHub URL alapján már lehet saját kódbázison új proktet létrehozni.
 
-Ilyen a könvítárstruktúra:
+Ilyen a könyvtárstruktúra:
 ```shell
 [bmepaasuser@localhost ~]$ tree git/
 git/
